@@ -107,13 +107,11 @@ def game(coin,c,p,q):
             c = e[2]
             print(f'You have {coin} coins.')
         elif coin == 0:
-            # system('clear')
             print('You ran out of coins.')
             break
         q = input('Press y to continue playing, if not then press any value. ')
         system('clear')
     point(c, p)
-    # print(f'Your coin amount is {a}.')
     
 def run():
     game(coin, cw, pw, q)
